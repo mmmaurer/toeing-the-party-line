@@ -1,0 +1,9 @@
+fasttext==0.9.2
+mantel==2.2.1
+numpy==2.1.2
+pandas==2.2.3
+polars==1.9.0
+sentence_transformers==2.7.0
+torch==2.3.0.post300
+tqdm==4.66.4
+transformers==4.40.2
