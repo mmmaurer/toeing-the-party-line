@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or approach, please cite it as below."
+authors:
+- family-names: "Maurer"
+  given-names: "Maximilian"
+- family-names: "Ceron"
+  given-names: "Tanise"
+- family-names: "Padó"
+  given-names: "Sebastian"
+- family-names: "Lapesa"
+  given-names: "Gabriella"
+title: "Toeing the Party Line: Election Manifestos as a Key to Understand Political Discourse on Twitter"
+version: "1.0"
+doi: "10.18653/v1/2024.findings-emnlp.354"
+date-released: 2024-11-08
+url: "https://www.aclweb.org/anthology/2024.findings-emnlp.354"
+preferred-citation: 
+  type: conference-paper
+  authors:
+  - family-names: "Maurer"
+    given-names: "Maximilian"
+  - family-names: "Ceron"
+    given-names: "Tanise"
+  - family-names: "Padó"
+    given-names: "Sebastian"
+  - family-names: "Lapesa"
+    given-names: "Gabriella"
+  title: "Toeing the Party Line: Election Manifestos as a Key to Understand Political Discourse on Twitter"
+  editors:
+  - family-names: "Al-Onaizan"
+    given-names: "Yaser"
+  - family-names: "Bansal"
+    given-names: "Mohit"
+  - family-names: "Chen"
+    given-names: "Yun-Nung"
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2024"
+  year: 2024
+  publisher: "Association for Computational Linguistics"
+  month: 11
+  start: 6115
+  end: 6130
+  location: "Miami, Florida, USA"

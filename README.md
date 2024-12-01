@@ -77,7 +77,7 @@ python3 filter_embeddings --model [model name] \
                           --fraction [fraction of data to keep, used in random mode]
 ```
 
-For experiment 2, use mode `random` with the seeds $0$, $6$, $12$, $24$, $42$ with fractions from $0.125$ to $1.0$ in $0.125$ stepsize steps. For experiment 3 (a) mode `time` with `start_month` $1$, $3$, $6$ and `end_month` $9$, and individual months (i.e. `start_month` $1$, `end_month` $1$). For experiment 4, use `mode`s $elected$, $incumbent$, $reelected$, $newly\_elected$, and $not\_reelected$.
+For experiment 2, use mode `random` with the seeds $0$, $6$, $12$, $24$, $42$ with fractions from $0.125$ to $1.0$ in $0.125$ stepsize steps. For experiment 3 (a) mode `time` with `start_month` $1$, $3$, $6$ and `end_month` $9$, and individual months (i.e. `start_month` $1$, `end_month` $1$). For experiment 4, use `mode`s ```elected```, ```incumbent```, ```reelected```, ```newly_elected```, and ```not_reelected```.
 
 To run the evaluation in the experiments, the manifesto dataset is needed. To download the version we used in the paper, visit [https://doi.org/10.25522/manifesto.mpds.2023a](https://doi.org/10.25522/manifesto.mpds.2023a). For the latest version, visit [https://manifesto-project.wzb.eu/datasets](https://manifesto-project.wzb.eu/datasets).
 
@@ -99,4 +99,24 @@ python3 experiments.py --embeddingspath [path to the pickled embeddings] \
 The `mode` and additional mode-specific settings should be according to how the embeddings were filtered.
 
 # Citation
-A bibtex reference to copy will be added upon publication.
+To cite our work, use the GitHub's citation function or copy:
+```bibtex
+@inproceedings{maurer-etal-2024-toeing,
+    title = "Toeing the Party Line: Election Manifestos as a Key to Understand Political Discourse on {T}witter",
+    author = "Maurer, Maximilian  and
+      Ceron, Tanise  and
+      Pad{\'o}, Sebastian  and
+      Lapesa, Gabriella",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.354",
+    doi = "10.18653/v1/2024.findings-emnlp.354",
+    pages = "6115--6130",
+}
+```
