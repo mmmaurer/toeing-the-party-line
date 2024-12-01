@@ -39,4 +39,8 @@ preferred-citation:
   month: 11
   start: 6115
   end: 6130
-  location: "Miami, Florida, USA"
+  url: "https://www.aclweb.org/anthology/2024.findings-emnlp.354"
+  doi: "10.18653/v1/2024.findings-emnlp.354"
+  city: Miami
+  country: USA
+  region: Florida
