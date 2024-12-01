@@ -41,6 +41,8 @@ preferred-citation:
   end: 6130
   url: "https://www.aclweb.org/anthology/2024.findings-emnlp.354"
   doi: "10.18653/v1/2024.findings-emnlp.354"
-  city: Miami
-  country: USA
-  region: Florida
+  conference:
+    city: Miami
+    country: USA
+    region: Florida
+  address: "Miami, Florida, USA"
